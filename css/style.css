@@ -1,0 +1,79 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    background-image: url('../images/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.matches img {
+    width: 60px;
+}
+
+.matches {
+    margin: 50px 0 50px 0;
+}
+
+.match {
+    border: 4px solid #fff;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 200;
+    text-align: center;
+    letter-spacing: 1.1px;
+    margin-top: 15px;
+}
+
+.venue, .date, .teams, .countdown {
+    /* border: 1px solid #fff; */
+    margin: 12.5px;
+}
+
+.header {
+    margin-bottom: 30px;
+}
+
+.teams {
+    /* border: 1px solid #fff; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.teams p {
+    margin-top: 10px;
+}
+
+.countdown {
+    margin-top: 30px;
+}
+
+
+@media only screen and (min-width: 1024px) {
+    .matches {
+        display: flex;
+        margin: 20px;
+    }
+
+    .match {
+        margin: 15px;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .match {
+        padding: 0;
+    }
+}
+
