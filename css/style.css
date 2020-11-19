@@ -18,8 +18,8 @@ html {
 }
 
 .matches img {
-    max-width: 60px;
-    max-height: 100px;
+    max-width: 100px;
+    max-height: auto;
 }
 
 .matches {
