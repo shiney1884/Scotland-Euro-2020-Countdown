@@ -19,7 +19,7 @@ html {
 
 .matches img {
     max-width: 100px;
-    max-height: auto;
+    max-height: 100px;
 }
 
 .matches {
