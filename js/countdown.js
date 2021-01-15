@@ -75,7 +75,7 @@ let ticker3 = setInterval(countdown3, 1000);
 function countdown3() {
    
     let now = new Date().getTime();
-    let t = startTime1 - now;
+    let t = startTime3 - now;
 
     if(t > 0) {
 
